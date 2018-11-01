@@ -16,7 +16,7 @@ public class Util extends TestBase {
 	//Method to get the configuration of test driver
 		public static String configValue(String key) throws Exception {
 			Properties prop = new Properties();
-			InputStream FIS = new FileInputStream("/Users/arunaarali/eclipse-workspace/LatchDemo/src/main/java/com/qa/config/config.properties");
+			InputStream FIS = new FileInputStream("/Users/arunaarali/Desktop/mahesh/git/LatchRepository/LatchDemo/src/main/java/com/qa/config/config.properties");
 			prop.load(FIS);
 			return prop.getProperty(key);
 		}
